@@ -93,8 +93,8 @@ Helpful Code Chunks:
 To see raw JSON, use log : 
    const params = new URLSearchParams();
    params.append("grant_type", "client_credentials");
-   params.append("client_id", "2b04a417936c456485b5146fa07b76c2");
-   params.append("client_secret", "9420db774a6348a5a94e5a40685b35d4");
+   params.append("client_id", "");
+   params.append("client_secret", "");
 
    fetch(url, {
       method: "POST",
@@ -118,8 +118,8 @@ async function getSpotKey(){
    //Strings together URL in correct format so I don't have to 
    const params = new URLSearchParams();
    params.append("grant_type", "client_credentials");
-   params.append("client_id", "2b04a417936c456485b5146fa07b76c2");
-   params.append("client_secret", "9420db774a6348a5a94e5a40685b35d4");
+   params.append("client_id", "");
+   params.append("client_secret", "");
 
    fetch(url, {
       method: "POST",
