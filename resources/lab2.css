@@ -1,0 +1,281 @@
+/*CSS specific to the lab2.html page*/
+
+body {
+   width: 100%;
+   margin: 0 0 0 0;
+   overflow: scroll;
+   /* Citation: https://stock.adobe.com/search?k=white+to+blue+gradient */
+   background-image: url('back.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+
+}
+
+#mainSec{
+   padding-bottom: 200px;
+}
+
+#header{
+
+   background-color: #3b7ffe;
+   width: 100%;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto; 
+   padding: 5px;
+   margin-top: 0;
+   margin-bottom: 0;
+   height: 100px; 
+   border-bottom: 5px solid black; 
+}
+
+
+h1 { 
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+   margin-top: 10px;
+   font-size: 4em;
+   text-align: center; 
+}
+
+.red{
+   color: red; 
+}
+
+#white{
+   color: white; 
+}
+
+
+/*Main Section*/
+
+.mainHold{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.innerHold{
+   text-align: center;
+   border-radius: 25px;
+}
+
+h3{
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   font-size: 2.3em;
+   font-weight: 300;
+}
+
+#weather{
+   margin-top: 75px;
+   width: 45%;
+   margin-right: 10px;
+   background-color: #1e44cb;
+   border: 5px solid white;
+   color: #ece284;
+   padding-bottom: 20px;
+}
+
+.miscList{
+   margin: 5% 0 0 10%;
+   font-size: 1.6em;
+   text-align: left;
+   list-style: none;
+}
+
+li{
+   margin-top: 10px
+}
+
+.res{
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+}
+
+#mainTemp{
+   margin: 0 0 0 0;
+   padding: 0 0 0 21%;
+   text-align: left;
+   font-size: 1.6em;
+   margin-top: 20px;
+}
+
+h2{
+   margin: 10px 0 0 0;
+   font-size: 3em;
+   text-decoration: underline;
+   font-weight: 1000;
+}
+
+#curWeath{
+   width: 100%;
+}
+
+#weatherPng{
+   margin: 5% 5% 0 5%; 
+   width: 30%;
+   height: 30%;
+   background-color: rgb(91, 91, 233);
+   border: 3px solid black;
+}
+
+
+#desc{
+   margin: 5% 5% 0 0;
+   width: 55%;
+}
+
+#initHideW{
+   display: none;
+}
+
+
+h4{
+   margin-top: 10%;
+   margin-bottom: 0;
+   padding: 0 0 0 0;
+   font-size: 0.9em;
+}
+
+#Music{
+   margin-top: 75px;
+   width: 45%;
+   margin-left: 10px;
+   background-color: black;
+   border: 5px solid #1ed760;
+}
+
+#spotHead{
+   color: #1ed760;
+
+}
+
+#spotIm{
+   padding: 5% 0 0 0;
+   width: 15%;
+}
+#spotUl{
+   margin: 5% 0 0 10%;
+   text-align: left;
+   color: #1ed760;
+   list-style: numbered;
+   font-size: 1.6em;
+}
+
+h5{
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+}
+
+.title{
+   text-decoration: underline;
+   font-weight: 1000;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   color: #1ed760;
+}
+
+.title:hover{
+   color:#9434d3;
+}
+
+.auth{
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: none;
+}
+
+.playIm{
+   width: 15%;
+   margin: 0 5% 0 10%;
+   padding: 0 0 0 0;
+}
+
+.playInfo{
+   margin: 0 10% 0 0;
+   padding: 0 0 0 0;
+   display: block;
+   width: 60%;
+   text-align: left;
+}
+
+.listFlex{
+   display: block;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+#lastLi{
+   padding-bottom: 10%;
+}
+
+.mainBut{
+   margin-top: 50px;
+   display: block; 
+   width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px; 
+   text-decoration: none;
+   color: white; 
+   font-size: 2.5em;
+   padding: 15px; 
+   border-radius: 30px;
+   background-color: #3b7ffe;
+}
+.mainBut:hover{
+   border: 5px solid black;
+   margin-bottom: 15px;
+   padding-top: 10px;
+}
+
+
+/*Footer*/
+footer {
+   /* Sizing */
+   display: block;
+   width: 100.2%;
+   height: 125px;
+   text-align: center;
+   background-color: #3b7ffe;
+   border-top: 10px; 
+   /*Font info*/
+   color: white;
+   font-size: 0.9em;
+   font-weight: 300;
+}
+
+#lm{
+   font-weight: 300;
+   text-align: center;
+}
+
+#helpLogos{
+   padding-top: 15px;   
+   justify-content: center;
+}
+
+/* Discord Logo from: https://discord.com/branding */
+#discLogo{
+   padding-right: 12px;
+   width: 50px; 
+   height: auto; 
+}
+
+/*github logo from: https://github.com/logos */
+#gitLogo{
+   padding-left: 12px;
+   width: 50px;
+   height: auto; 
+}
+
+#cpright{
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+   padding-top: 0px;
+   margin-top: 10px;
+}
+
